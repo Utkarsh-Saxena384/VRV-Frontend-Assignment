@@ -1,15 +1,14 @@
 <template>
   <q-page class="flex flex-center">
-    <img
+    <!-- <img
       alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+      src="https://dme2wmiz2suov.cloudfront.net/Institution(502)/Logo/1652751-NewFinalLogo_(1)asfsdg4g4.png"
+
+      style="width: 400px; height: 100px"
+    /> -->
   </q-page>
 </template>
 
 <script setup>
-defineOptions({
-  name: 'IndexPage'
-});
+
 </script>

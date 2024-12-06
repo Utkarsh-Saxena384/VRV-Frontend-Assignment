@@ -1,1 +1,137 @@
-// app global css in SCSS form
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  color: #555;
+  font-family: "poppins", sans-serif;
+}
+
+.popins {
+  font-family: "poppins", sans-serif;
+}
+
+.bitter {
+  font-family: "Bitter", sans-serif;
+}
+
+.roboto {
+  font-family: roboto;
+}
+
+tbody tr:hover {
+  background-color: #f8f9fb;
+}
+
+.w100 {
+  font-weight: 100;
+}
+
+.w200 {
+  font-weight: 100;
+}
+
+.w300 {
+  font-weight: 300;
+}
+
+.w400 {
+  font-weight: 400;
+}
+
+.w500 {
+  font-weight: 500;
+}
+
+.w600 {
+  font-weight: 600 !important;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.w800 {
+  font-weight: 800;
+}
+
+.shadowBoder {
+  border-radius: 5px;
+  box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+}
+
+.action-btn {
+  color: gray;
+}
+
+// .edit-btn{
+//   color: green;
+// }
+// .status-btn{
+//   color: rgb(194, 203, 16);
+// }
+.create-event-btn {
+  display: flex;
+  justify-content: flex-end;
+  // margin-top: 2rem;
+}
+
+.submit-btn {
+  background-color: #3b49e7;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create-btn {
+  background-color: #3b49e7;
+  color: #fff;
+  border-radius: 7px;
+  width: 155px;
+}
+
+.status {
+  width: 100px;
+  display: flex;
+  font-size: 16px;
+  padding: 8px;
+  justify-content: center;
+}
+
+#back-btn:hover {
+  color: #7b94e6 !important;
+}
+
+.badge-btn {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+// all ppage main heading
+#head-1 {
+  font-weight: 600;
+  width: auto;
+}
+
+#arrow-icon {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+  .head-btn-box[data-v-df2eb266] {
+    margin-bottom: 10px;
+  }
+  .shadowBoder {
+    padding: 5px 20px;
+  }
+  h5 {
+    font-size: 1.2rem;
+  }
+  .create-btn {
+    width: 120px;
+  }
+  .q-btn {
+    font-size: 12px;
+  }
+}
